@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+    background-color: rgb(255, 253, 250);
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: auto;
+}
+h2{
+  font-family: 'Roboto Serif', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  align-self: center;
+  /* color: orange; */
+  background-color: white;
+  padding: 8px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#hamilton{
+  color: rgb(241, 158, 4);
+}
+#clarke{
+  color:rgb(230, 93, 29)
+}
+#berners{
+  color:rgb(255, 3, 3)
+}
+#babbage{
+  color:rgb(4, 209, 158)
+}
+#hopper{
+  color:rgb(108, 62, 168)
+}
+#lovelace{
+  color:rgb(7, 125, 141)
+}
+#turing{
+  color:rgb(31, 79, 168)
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 15px;
+  text-align: center;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(54, 54, 54, 0.70);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+  color: white;
+  
+}
+nav ul li a{
+  color:white;
+  padding-left: 5rem;
+  /* display: flex;
+  justify-content:space-around;  */
+}
+nav ul li span{
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  width: 450px;
+  margin: auto;
+  
+}
+.container{
+  width: 500px;
+  /* height: 600px; */
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.super-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.super-container img{
+  width: 400px;
+}
+#elegir{
+  display: flex;
+  justify-content: center;
+}
