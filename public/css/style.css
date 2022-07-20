@@ -68,7 +68,6 @@ nav{
 }
 nav ul li{
   display: inline-block;
-  flex-direction: row;
   justify-content: center;
   align-items: space-around;
   color: white;
@@ -77,8 +76,6 @@ nav ul li{
 nav ul li a{
   color:white;
   padding-left: 5rem;
-  /* display: flex;
-  justify-content:space-around;  */
 }
 nav ul li span{
   font-size: 1.5rem;
@@ -100,12 +97,13 @@ img{
 }
 .super-container{
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   flex-wrap: wrap;
 
 }
 .super-container img{
   width: 400px;
+  margin: auto 30px;
 }
 #elegir{
   display: flex;
